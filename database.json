@@ -1,175 +1,181 @@
 {
-    "users": [
-        {
-            "id": 1 ,
-            "fullName": "Timmy Beepbop",
-            "email": "Tbo@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 2,
-            "fullName": "Alicia Washington",
-            "email": "allie4825@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 3,
-            "fullName": "Chanelle Whittenburg",
-            "email": "whittCh1515@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 4,
-            "fullName": "Josiah Thornton",
-            "email": "Jthorn001@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 5,
-            "fullName": "Thomas Smith",
-            "email": "ThomasSmith1@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 6,
-            "fullName": "Oliver Conley",
-            "email": "opconley1@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 7,
-            "fullName": "Ramon Conley",
-            "email": "ramon_conley@gmail.com",
-            "isStaff": false
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "address": "8810 Mockingbird Way",
-            "phoneNumber": "931-881-3022",
-            "loyaltyNumber": 12345,
-            "userId": 1
-        },
-        {
-            "id": 2,
-            "address": "1057 Pantheon Blvd",
-            "phoneNumber": "615-518-9020",
-            "loyaltyNumber": 10293,
-            "userId": 4
-        },
-        {
-            "id": 3,
-            "address": "2500 Union Street",
-            "phoneNumber": "931-500-200",
-            "loyaltyNumber": 11925,
-            "userId": 6
-        },
-        {
-            "id": 4,
-            "address": "2500 Union Street",
-            "phoneNumber": "931-500-201",
-            "loyaltyNumber": 11561,
-            "userId": 7
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "speciality": "Candy Maker",
-            "payRate": 20.25,
-            "startDate": "10-25-2019",
-            "locationId": 1,
-            "userId": 2
-        },
-        {
-            "id": 2,
-            "speciality": "Front End",
-            "payRate": 11.50,
-            "startDate": "11-08-2022",
-            "locationId": 2,
-            "userId": 3
-        },
-        {
-            "id": 3,
-            "speciality": "1st Shift Supervisor",
-            "payRate": 37.75,
-            "startDate": "04-19-2012",
-            "locationId": 1,
-            "userId": 5
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "1500 Milky Way Road",
-            "sqFt": 15000
-        },
-        {
-            "id": 2,
-            "address": "2000 Infinity Drive",
-            "sqFt": 22000
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "productTypeId": 1,
-            "name": "Milk Chocolate",
-            "pricePerUnit": 2.50
-        },
-        {
-            "id": 2,
-            "productTypeId": 1,
-            "name": "Dark Chocolate",
-            "pricePerUnit": 2.25
-        },
-        {
-            "id": 3,
-            "productTypeId": 2,
-            "name": "Gummie Bear",
-            "pricePerUnit": 0.05
-        },
-        {
-            "id": 4,
-            "productTypeId": 2,
-            "name": "Gummy Worm",
-            "pricePerUnit": 0.09
-        },
-        {
-            "id": 5,
-            "productTypeId": 3,
-            "name": "Peppermint Cane",
-            "pricePerUnit": 0.55 
-        },
-        {
-            "id": 6,
-            "productTypeId": 3,
-            "name": "Peppermint Bark",
-            "pricePerUnit": 1.25 
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "chocolate"
-        },
-        {
-            "id": 2,
-            "type": "gummies"
-        },
-        {
-            "id": 3,
-            "type": "hard candy"
-        }
-    ],
-    "purchases": [
-        {
-            "id": ,
-            "customerId": ,
-            "productId": ,
-            "unitsPurchased": ,
-            "totalPurchasePrice": ,
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Timmy Beepbop",
+      "email": "Tbo@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Alicia Washington",
+      "email": "allie4825@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "Chanelle Whittenburg",
+      "email": "whittCh1515@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "fullName": "Josiah Thornton",
+      "email": "Jthorn001@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Thomas Smith",
+      "email": "ThomasSmith1@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Oliver Conley",
+      "email": "opconley1@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "fullName": "Ramon Conley",
+      "email": "ramon_conley@gmail.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "8810 Mockingbird Way",
+      "phoneNumber": "931-881-3022",
+      "loyaltyNumber": 12345,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "address": "1057 Pantheon Blvd",
+      "phoneNumber": "615-518-9020",
+      "loyaltyNumber": 10293,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "address": "2500 Union Street",
+      "phoneNumber": "931-500-200",
+      "loyaltyNumber": 11925,
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "address": "2500 Union Street",
+      "phoneNumber": "931-500-201",
+      "loyaltyNumber": 11561,
+      "userId": 7
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "speciality": "Candy Maker",
+      "payRate": 20.25,
+      "startDate": "10-25-2019",
+      "locationId": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "speciality": "Front End",
+      "payRate": 11.5,
+      "startDate": "11-08-2022",
+      "locationId": 2,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "speciality": "1st Shift Supervisor",
+      "payRate": 37.75,
+      "startDate": "04-19-2012",
+      "locationId": 1,
+      "userId": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "1500 Milky Way Road",
+      "sqFt": 15000
+    },
+    {
+      "id": 2,
+      "address": "2000 Infinity Drive",
+      "sqFt": 22000
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productTypeId": 1,
+      "name": "Milk Chocolate",
+      "pricePerUnit": 2.5
+    },
+    {
+      "id": 2,
+      "productTypeId": 1,
+      "name": "Dark Chocolate",
+      "pricePerUnit": 2.25
+    },
+    {
+      "id": 3,
+      "productTypeId": 2,
+      "name": "Gummie Bear",
+      "pricePerUnit": 0.05
+    },
+    {
+      "id": 4,
+      "productTypeId": 2,
+      "name": "Gummy Worm",
+      "pricePerUnit": 0.09
+    },
+    {
+      "id": 5,
+      "productTypeId": 3,
+      "name": "Peppermint Cane",
+      "pricePerUnit": 0.55
+    },
+    {
+      "id": 6,
+      "productTypeId": 3,
+      "name": "Peppermint Bark",
+      "pricePerUnit": 1.25
+    },
+    {
+      "name": "Fudge",
+      "productTypeId": "1",
+      "pricePerUnit": "3.50",
+      "id": 7
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "chocolate"
+    },
+    {
+      "id": 2,
+      "type": "gummies"
+    },
+    {
+      "id": 3,
+      "type": "hard candy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "unitsPurchased": 1,
+      "totalPurchasePrice": 1
+    }
+  ]
 }
